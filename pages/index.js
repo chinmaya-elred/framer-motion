@@ -6,7 +6,10 @@ import Gestures from "../components/Gestures";
 import NotionKanbanDragDrop from "../components/NotionKanbanDragDrop/NotionKanbanDragDrop";
 import ParallalxMain from "../components/ParallalxMain";
 import ScrollAnimations from "../components/ScrollAnimation";
+import TextImageParallax from "../components/TextImageParallalx";
 import ViewBasedAnimations from "../components/ViewBaseAnimaions";
+import HoverTiltCard from "../components/CardHover";
+import { SwipeCarousel } from "../components/ScrollCarousel";
 
 export default function Home() {
   return (
@@ -19,7 +22,10 @@ export default function Home() {
       {/* <ParallalxMain /> */}
       {/* <NotionKanbanDragDrop/> */}
       {/* <ComplexAnimations /> */}
-      <AuroraEffect/>
+      {/* <AuroraEffect/> */}
+      {/* <TextImageParallax/> */}
+      {/* <HoverTiltCard /> */}
+      <SwipeCarousel />
     </div>
   );
 }
