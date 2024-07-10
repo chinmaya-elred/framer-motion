@@ -10,6 +10,11 @@ import TextImageParallax from "../components/TextImageParallalx";
 import ViewBasedAnimations from "../components/ViewBaseAnimaions";
 import HoverTiltCard from "../components/CardHover";
 import { SwipeCarousel } from "../components/ScrollCarousel";
+import { RevealLinks } from '../components/TextAnimation'
+import { ShiftingDropDown } from "../components/NavigationMenu";
+import FlyoutContentComp from "../components/FlyoutContent";
+import { GridAnimation } from "../components/GridAnimation";
+import { SlideTabsExample } from "../components/AnimatedNavbar";
 
 export default function Home() {
   return (
@@ -25,7 +30,12 @@ export default function Home() {
       {/* <AuroraEffect/> */}
       {/* <TextImageParallax/> */}
       {/* <HoverTiltCard /> */}
-      <SwipeCarousel />
+      {/* <SwipeCarousel /> */}
+      {/* <RevealLinks  /> */}
+      {/* <ShiftingDropDown/>  */}
+      {/* <FlyoutContentComp/> */}
+      {/* <GridAnimation /> */}
+      <SlideTabsExample />
     </div>
   );
 }
