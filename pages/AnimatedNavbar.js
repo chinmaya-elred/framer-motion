@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-export const SlideTabsExample = () => {
+const SlideTabsExample = () => {
   return (
     <div className="bg-neutral-100 py-20">
       <SlideTabs />
@@ -71,3 +71,5 @@ const Cursor = ({ position }) => {
     />
   );
 };
+
+export  default SlideTabsExample

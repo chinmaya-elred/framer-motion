@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.box {
+    width: 200px;
+    height: 500px;
+    background: var(--accent);
+  }
+  

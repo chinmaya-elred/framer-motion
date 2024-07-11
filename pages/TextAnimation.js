@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export const RevealLinks = () => {
+const TextAnimation = () => {
   return (
     <section className="grid place-content-center gap-2 bg-green-300 px-8 py-24 text-black">
       <FlipLink href="#">Twitter</FlipLink>
@@ -75,3 +75,5 @@ const FlipLink = ({ children, href }) => {
     </motion.a>
   );
 };
+
+export default TextAnimation

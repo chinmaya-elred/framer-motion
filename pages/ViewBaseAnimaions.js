@@ -11,7 +11,7 @@ const ViewBasedAnimations = () => {
 
   return (
     <>
-      <div style={{ height: "150vh" }} />
+      <div style={{ height: "50vh" }} />
       <motion.div
         style={{ height: "100vh", background: "black" }}
         initial={{ opacity: 0 }}
